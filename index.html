@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flappy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <style>
+        *{
+            font-family: 'Press Start 2P', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: relative; display: inline-block;">
+
+        <div id="displayText"
+        style="position: absolute; color: white; display: flex; align-items: center; justify-content: center;top: 0;left: 0;right: 0;bottom: 0;">Press space to flap !!</div>
+        <div id="score" style="position: absolute;">score: 0</div>
+        <canvas id="mainCanvas"></canvas>
+    </div>
+    <script src="init.js"></script>
+    <script src="class.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
